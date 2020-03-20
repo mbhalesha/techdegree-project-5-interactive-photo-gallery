@@ -1,19 +1,24 @@
-$(document).ready(function() {
-  $(".search").on("keyup", function() {
-    // target input element and pass event listener "keyup"
-    let value = $(this)
-      .val()
-      .toLowerCase();
-    $("a").each(function() {
-      // loop through all link elements on the page
-      let str = $(this).attr("data-title");
-      // target the attribute data-title
-      if (str.indexOf(value) > -1) {
-        // if the attribute data-title contains a letter in the input(value)
-        $(this).show; // show all the possible options
-      } else {
-        $(this).hide; // hide all the possible options
-      }
-    });
+// search function using jQuery
+
+// target input element and pass event listener "keyup"
+$(".search").on("keyup", function() {
+  var value = $(this)
+    .val()
+    .toLowerCase();
+  // loop through all link elements on the page
+  $(".gallery a").filter(function() {
+    $(this).toggle(
+      $(this)
+        // target the attribute data-title
+        .attr("data-title")
+        // change to all Lower Case so case insensitive search
+        .toLowerCase()
+        .indexOf(value) > -1
+    );
   });
+});
+
+lightbox.option({
+  wrapAround: true,
+  alwaysShowNavOnTouchDevices: true
 });
