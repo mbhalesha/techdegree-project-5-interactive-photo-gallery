@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Photo Gallery</title>
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/normalize.min.css" />
+
     <link href="css/lightbox.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
   </head>
+
   <body>
     <main>
       <h1>My Photo Gallery</h1>
@@ -15,18 +23,12 @@
         <input class="search" type="text" placeholder="Search here" />
       </div>
 
-      <!-- a tags link to larger photos, img tag will display the thumbnail  -->
-
-      <!-- <div>
-                <img src="#" alt=""/>
-                <a href="#"Picture 1</a>
-            </div> -->
-
       <div class="gallery">
         <div>
           <a
             href="images-1/photos/01.jpg"
             class="image"
+            data-alt="Hay Bales"
             data-lightbox="nature"
             data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields"
           >
@@ -38,6 +40,7 @@
           <a
             href="images-1/photos/02.jpg"
             class="image"
+            data-alt="Lake"
             data-lightbox="nature"
             data-title="The lake was so calm today. We had a great view of the snow on the mountains from here."
           >
@@ -49,6 +52,7 @@
           <a
             href="images-1/photos/03.jpg"
             class="image"
+            data-alt="Canyon"
             data-lightbox="nature"
             data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below."
           >
@@ -60,6 +64,7 @@
           <a
             href="images-1/photos/04.jpg"
             class="image"
+            data-alt="Iceberg"
             data-lightbox="nature"
             data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today."
           >
@@ -71,6 +76,7 @@
           <a
             href="images-1/photos/05.jpg"
             class="image"
+            data-alt="Desert"
             data-lightbox="nature"
             data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."
           >
@@ -82,6 +88,7 @@
           <a
             href="images-1/photos/06.jpg"
             class="image"
+            data-alt="Fall"
             data-lightbox="nature"
             data-title="Fall is coming, I love when the leaves on the trees start to change color."
           >
@@ -93,6 +100,7 @@
           <a
             href="images-1/photos/07.jpg"
             class="image"
+            data-alt="Plantation"
             data-lightbox="nature"
             data-title="I drove past this plantation yesterday, everything is so green!"
           >
@@ -104,6 +112,7 @@
           <a
             href="images-1/photos/08.jpg"
             class="image"
+            data-alt="Dunes"
             data-lightbox="nature"
             data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!"
           >
@@ -115,6 +124,7 @@
           <a
             href="images-1/photos/09.jpg"
             class="image"
+            data-alt="Countryside Lane"
             data-lightbox="nature"
             data-title="We enjoyed a quiet stroll down this countryside lane."
           >
@@ -126,17 +136,7 @@
           <a
             href="images-1/photos/10.jpg"
             class="image"
-            data-lightbox="nature"
-            data-title="Sunset at the coast! The sky turned a lovely shade of orange."
-          >
-            <img src="images-1/thumbnails/10.jpg" alt="Sunset" />
-          </a>
-        </div>
-
-        <div>
-          <a
-            href="images-1/photos/10.jpg"
-            class="image"
+            data-alt="Sunset"
             data-lightbox="nature"
             data-title="Sunset at the coast! The sky turned a lovely shade of orange."
           >
@@ -148,6 +148,7 @@
           <a
             href="images-1/photos/11.jpg"
             class="image"
+            data-alt="Cave"
             data-lightbox="nature"
             data-title="I did a tour of a cave today and the view of the landscape below was breathtaking."
           >
@@ -159,6 +160,7 @@
           <a
             href="images-1/photos/12.jpg"
             class="image"
+            data-alt="Bluebells"
             data-lightbox="nature"
             data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."
           >
