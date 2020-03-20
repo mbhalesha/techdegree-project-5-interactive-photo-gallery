@@ -10,7 +10,7 @@ blue - C6D8D3 */
 body {
   margin: 0 auto;
   height: 100vh;
-  max-width: 1000px;
+  max-width: 1200px;
   font-family: "Lato", sans-serif;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@ h1 {
 .gallery {
   margin-top: 30px;
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
