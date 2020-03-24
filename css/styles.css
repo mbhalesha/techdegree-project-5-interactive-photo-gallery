@@ -62,6 +62,10 @@ img.lb-image {
   justify-content: center;
 }
 
+.input::placeholder {
+  font-style: italic;
+}
+
 .search {
   border-radius: 4px;
   width: 45%;
@@ -75,4 +79,5 @@ img.lb-image {
 .search:focus {
   outline: 0;
   border: 1.5px solid #3a3335;
+  transition: border 0.5s ease-out;
 }
