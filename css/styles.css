@@ -24,6 +24,10 @@ h1 {
   color: #f0544f;
 }
 
+.lb-data .lb-caption {
+  font-size: 15px;
+}
+
 /* ======== Gallery Style ======== */
 
 .gallery {
