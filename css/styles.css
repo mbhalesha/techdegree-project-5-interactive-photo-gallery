@@ -65,7 +65,7 @@ img.lb-image {
 .search {
   border-radius: 4px;
   width: 45%;
-  border: 1px solid #c6d8d3;
+  border: 1.5px solid #c6d8d3;
   font-size: 1.2em;
   padding-left: 7px;
   height: 30px;
@@ -74,5 +74,5 @@ img.lb-image {
 
 .search:focus {
   outline: 0;
-  border: 1px solid #3a3335;
+  border: 1.5px solid #3a3335;
 }
