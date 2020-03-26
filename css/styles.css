@@ -77,6 +77,10 @@ img.lb-image {
   justify-content: center;
 }
 
+.search::placeholder {
+  font-style: italic;
+}
+
 .search {
   border-radius: 4px;
   width: 45%;
@@ -85,7 +89,6 @@ img.lb-image {
   padding-left: 7px;
   height: 30px;
   font-family: "Lato", sans-serif;
-  font-style: italic;
 }
 
 .search:focus {
