@@ -58,6 +58,17 @@ img.lb-image {
   padding: 0;
 }
 
+.lb-data .lb-caption {
+  text-align: center;
+  display: block;
+  line-height: 1.3em;
+}
+
+.lb-data .lb-caption a {
+  text-align: center;
+  display: block;
+}
+
 /* ======== Search Input Style ======== */
 
 .input {
